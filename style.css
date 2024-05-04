@@ -1,0 +1,53 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #f9f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff84a1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.message {
+    background-color: #f9e4c5;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#surprizeTikla {
+    background-color: #ff84a1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#surprizeTikla:hover {
+    background-color: #ff6699;
+}
+
+footer {
+    background-color: #ff84a1;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
